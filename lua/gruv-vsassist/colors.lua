@@ -56,7 +56,7 @@ colors.get_colors = function()
         vscFoldBackground = "#202d39",
 
         -- Syntax colors
-        vscGray = "#808080",
+        vscGray = "#b2b2b2",
         vscViolet = "#646695",
         vscBlue = "#569CD6",
         vscDarkBlue = "#223E55",
@@ -84,8 +84,8 @@ colors.get_colors = function()
         gruvBlue = "#83a598",
         gruvRed = "#fb4934",
         gruvPurple = "#d3869b",
-        gruvFg1 = "#fbf1c7", -- Dirty white
-        gruvFg2 = "#a89984", -- Darker dirty white
+        gruvFg1 = "#dfd9c2", -- Dirty white
+        gruvFg2 = "#c1b6a3", -- Darker dirty white
     }
 
     -- Other ui specific colors
