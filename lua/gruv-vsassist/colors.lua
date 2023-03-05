@@ -37,7 +37,7 @@ colors.get_colors = function()
         vscDiffGreenDark = "#373D29",
         vscDiffGreenLight = "#4B5632",
         vscSearchCurrent = "#515c6a",
-        vscSearch = "#613315",
+        vscSearch = "#613315", -- unused
 
         vscGitAdded = "#81b88b",
         vscGitModified = "#e2c08d",
