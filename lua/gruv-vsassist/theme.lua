@@ -522,25 +522,25 @@ theme.set_highlights = function(opts)
     })
 
     -- Nvim compe
-    hl(0, "CmpItemKindVariable", { fg = c.vscLightBlue, bg = "NONE" })
-    hl(0, "CmpItemKindInterface", { fg = c.vscLightBlue, bg = "NONE" })
-    hl(0, "CmpItemKindText", { fg = c.vscLightBlue, bg = "NONE" })
-    hl(0, "CmpItemKindFunction", { fg = c.vscPink, bg = "NONE" })
-    hl(0, "CmpItemKindMethod", { fg = c.vscPink, bg = "NONE" })
-    hl(0, "CmpItemKindKeyword", { fg = c.vscFront, bg = "NONE" })
-    hl(0, "CmpItemKindProperty", { fg = c.vscFront, bg = "NONE" })
-    hl(0, "CmpItemKindUnit", { fg = c.vscFront, bg = "NONE" })
-    hl(0, "CmpItemKindConstructor", { fg = c.vscUiOrange, bg = "NONE" })
+    hl(0, "CmpItemKindVariable", { fg = c.gruvBlue, bg = "NONE" })
+    hl(0, "CmpItemKindInterface", { fg = c.vsaGold, bg = "NONE" })
+    hl(0, "CmpItemKindText", { fg = c.gruvFg2, bg = "NONE" })
+    hl(0, "CmpItemKindFunction", { fg = c.vsaGold, bg = "NONE" })
+    hl(0, "CmpItemKindMethod", { fg = c.vsaOrange, bg = "NONE" })
+    hl(0, "CmpItemKindKeyword", { fg = c.gruvRed, bg = "NONE" })
+    hl(0, "CmpItemKindProperty", { fg = c.gruvFg1, bg = "NONE" })
+    hl(0, "CmpItemKindUnit", { fg = c.gruvFg1, bg = "NONE" })
+    hl(0, "CmpItemKindConstructor", { fg = c.vsaOrange, bg = "NONE" })
     hl(0, "CmpItemMenu", { fg = c.vscPopupFront, bg = "NONE" })
     hl(0, "CmpItemAbbr", { fg = c.vscFront, bg = "NONE" })
     hl(0, "CmpItemAbbrDeprecated", { fg = c.vscCursorDark, bg = c.vscPopupBack, strikethrough = true })
     hl(0, "CmpItemAbbrMatch", {
-        fg = isDark and c.vscMediumBlue or c.vscDarkBlue,
+        fg = isDark and c.gruvRed,
         bg = "NONE",
         bold = true,
     })
     hl(0, "CmpItemAbbrMatchFuzzy", {
-        fg = isDark and c.vscMediumBlue or c.vscDarkBlue,
+        fg = isDark and c.gruvRed,
         bg = "NONE",
         bold = true,
     })
