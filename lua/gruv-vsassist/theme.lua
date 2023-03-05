@@ -172,7 +172,6 @@ theme.set_highlights = function(opts)
     hl(0, "@punctuation.delimiter", { fg = c.vscGrey, bg = "NONE" })
     hl(0, "@stringEscape", { fg = isDark and c.vscOrange or c.vscYellowOrange, bold = true })
     hl(0, "@stringSpecial", { fg = isDark and c.vscOrange or c.vscYellowOrange, bold = true })
-
     hl(0, "@text.note", { fg = c.vscBlueGreen, bg = "NONE", bold = true })
     hl(0, "@text.warning", { fg = c.vscYellowOrange, bg = "NONE", bold = true })
     hl(0, "@text.danger", { fg = c.vscRed, bg = "NONE", bold = true })
