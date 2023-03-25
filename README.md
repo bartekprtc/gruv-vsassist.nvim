@@ -1,12 +1,14 @@
 # gruv-vsassist.nvim
 
-Neovim colour scheme strongly inspired by The Cherno's Visual Studio colour scheme. It's a mix of VSCode, VSAssist (Visual Assist - VS extension) and Gruvbox. 
+Neovim colour scheme strongly inspired by The Cherno's Visual Studio colour scheme. It's a mix of VSCode, VSAssist (Visual Assist - VS extension) and Gruvbox.
 
 Code based on [vsassist.nvim](https://github.com/BoHomola/vsassist.nvim) theme, which is based on [vscode.nvim](https://github.com/Mofiqul/vscode.nvim). Pretty much the only difference to vscode.nvim are the syntax highlight colours (mostly set up for C/C++); remaining highlights (such as lua, typescript, js, css, etc.) remain default (vscode).
 
+I tried highlighting functions (and function calls) in a separate color to methods (and method calls), but that disambiguation is not yet available in treesitter (for C++, at least). Also, macro "function" calls are highlighted with "Constructor" hl group, so I made it purple.
+
 ## Preview
 
-![VSAssist.nvim](./gruv-vsassist.png)
+![VSAssist.nvim](./showcase/cpp/showcase.png)
 
 
 ## Usage
