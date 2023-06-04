@@ -4,7 +4,7 @@ Neovim colour scheme strongly inspired by The Cherno's Visual Studio colour sche
 
 Code based on [vsassist.nvim](https://github.com/BoHomola/vsassist.nvim) theme, which is based on [vscode.nvim](https://github.com/Mofiqul/vscode.nvim). Pretty much the only difference to vscode.nvim are the syntax highlight colours (mostly set up for C/C++); remaining highlights (such as lua, typescript, js, css, etc.) remain default (vscode).
 
-Macro "function" calls are highlighted with "Constructor" hl group, so I made it purple.
+Scheme supports lsp semantic tokens.
 
 ## Preview
 

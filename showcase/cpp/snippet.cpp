@@ -25,7 +25,7 @@ public:
     SomeClass() { m_Data = new SomeData(); }
     ~SomeClass() { delete m_Data; m_Data = 0; }
 
-    static int DoSomethingStatic( int _Arg0, float _Arg1 )
+    static int DoSomethingStatic(int _Arg0, float _Arg1)
     {
         std::vector<float> Vec = std::vector<float>();
 
@@ -43,7 +43,7 @@ public:
     }
 
     template<class _T>
-    int DoSomethingNonStatic() const;
+    [[nodiscard]] int DoSomethingNonStatic() const;
 private:
     SomeData* m_Data;
     static SomeData* m_StaticData;
