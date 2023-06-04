@@ -660,7 +660,8 @@ theme.link_highlight = function()
     hl(0, "CmpItemKindStruct", { link = "@structure" })
     hl(0, "CmpItemKindTypeParameter", { link = "@parameter" })
 
-    hl(0, "@lsp.type.class", { link = "@class"})
+    -- LSP semantic tokens
+    hl(0, "@lsp.type.class", { link = "@type"})
     hl(0, "@lsp.type.comment", { link = "@comment"})
     -- hl(0, "@lsp.type.decorator", { link = ""})
     hl(0, "@lsp.type.enum", { link = "@type"})
