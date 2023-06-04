@@ -8,7 +8,7 @@ Scheme supports lsp semantic tokens.
 
 ## Preview
 
-![VSAssist.nvim](./showcase/cpp/showcase.png)
+![gruv-vsassist.nvim](./showcase/cpp/showcase.png)
 
 
 ## Usage
