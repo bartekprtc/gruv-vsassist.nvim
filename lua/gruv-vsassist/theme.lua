@@ -180,8 +180,8 @@ theme.set_highlights = function(opts)
     hl(0, "@namespace.latex", { link = "@function" })
     hl(0, "@include.latex", { link = "@include" })
     hl(0, "@string.latex", { link = "@string" })
-    hl(0, "@spell.latex", { link = "@text" })
-    hl(0, "@nospell.latex", { link = "@text" })
+    -- hl(0, "@spell.latex", { link = "@text" })
+    -- hl(0, "@nospell.latex", { link = "@text" })
 
     --LSP
     hl(0, "LspNamespace", { fg = c.vsaOrange, bg = "NONE" })
