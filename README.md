@@ -2,9 +2,13 @@
 
 Neovim colour scheme strongly inspired by The Cherno's Visual Studio colour scheme. It's a mix of VSCode, VSAssist (Visual Assist - VS extension) and Gruvbox.
 
-Code based on [vsassist.nvim](https://github.com/BoHomola/vsassist.nvim) theme, which is based on [vscode.nvim](https://github.com/Mofiqul/vscode.nvim). Pretty much the only difference to vscode.nvim are the syntax highlight colours (mostly set up for C/C++); remaining highlights (such as lua, typescript, js, css, etc.) remain default (vscode).
+Code based on [vsassist.nvim](https://github.com/BoHomola/vsassist.nvim) theme, which is based on [vscode.nvim](https://github.com/Mofiqul/vscode.nvim). It is customised for:
+- C
+- C++
+- LaTeX
+Remaining highlights (such as lua, typescript, js, css, etc.) remain default (Mofiqul's vscode.nvim).
 
-Scheme supports lsp semantic tokens.
+Scheme works with lsp semantic tokens.
 
 ## Preview
 
