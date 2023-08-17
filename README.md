@@ -6,6 +6,7 @@ Code based on [vsassist.nvim](https://github.com/BoHomola/vsassist.nvim) theme, 
 - C
 - C++
 - LaTeX
+
 Remaining highlights (such as lua, typescript, js, css, etc.) remain default (Mofiqul's vscode.nvim).
 
 Scheme works with lsp semantic tokens.
